@@ -1,0 +1,5 @@
+# Eprint fields
+rename.field {archiveprefix=eprinttype}
+rename.field {primaryclass=eprintclass}
+add.field = {archiveprefix = "%s(eprinttype)"}
+add.field = {primaryclass = "%s(eprintclass)"}
