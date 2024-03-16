@@ -716,21 +716,20 @@
   % \tex_def:D \baselinestretch{1}
   \thispagestyle{empty}
   \setcounter{page}{2}
-  \null\vfil
-  \begin{center}
-    {\bfseries \MakeUppercase{\PHDministry} \par}
-    \smallskip
-    {\bfseries \MakeUppercase{\PHDinstitute} \par}
-  \end{center}
-
-  \bigskip
-  \bigskip
-  \bigskip
-
-  \begin{center}
-    {\large\textbf{Аннотация}}\par  
-    \textbf{выпускной~квалификационной~работы}\par
+  \begin{singlespace}
+    \begin{center}
+      {\small \bfseries \MakeUppercase{\PHDministry} \par}
+      \smallskip
+      {\bfseries \MakeUppercase{\PHDinstitute} \par}
+    \end{center}
     
+    \bigskip
+    \bigskip
+
+    \begin{center}
+      {\large\textbf{Аннотация}}\par
+      \textbf{выпускной~квалификационной~работы}\par
+
     % Автор
     \ifx\@empty\PHDauthorgen
     \else%
@@ -739,22 +738,23 @@
       \bigskip
     \fi
   \end{center}
-  
+
   \noindent на~тему:~
   \PHDtitle
   \par
   \bigskip
-  
+
   \begin{Abstract}
     % \noindent
     % \ignorespaces
     \file_if_exist:nT { \jobname.abs } { \file_input:n { \jobname.abs } }
   \end{Abstract}
-  
+
   \vfill
 
   \noindent Автор~ВКР
   \hfill \rule{5cm}{0.4pt} \hfill \PHDauthor
+\end{singlespace}
 }
 
 
