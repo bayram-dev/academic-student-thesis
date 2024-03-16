@@ -1,10 +1,3 @@
-/*
-    Name: Header file for SDE computing
-    Author: Andrew "Atcher" Tchernoivanov
-	    tchernoivanov@gmail.com
-    Copyright: Raccoon Programming Division
-*/
-
 # include <stdio.h>
 # include <math.h>
 # include <gsl/gsl_errno.h>

@@ -56,11 +56,11 @@
   \geometry{bindingoffset=0mm}
   \geometry{marginparwidth=0dd,marginparsep=0dd}
   \geometry{heightrounded}
-  \usepackage{setspace}
-  \onehalfspacing
-  }
+  \usepackage[keepfontsize]{setspaceenhanced}
+  \spacesetup{onehalfspacing}
+}
 
-\PassOptionsToClass{a4paper,13pt,oneside,onecolumn,final,openany}{scrreprt}  
+\PassOptionsToClass{a4paper,14pt,oneside,onecolumn,final,openany}{scrreprt}
 
 %%% Local Variables: 
 %%% mode: latex
