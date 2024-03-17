@@ -65,7 +65,7 @@
     \def\brsTableProtection{{\CYRZ}{\cyra}{\cyrshch}{\cyri}{\cyrt}{\cyra}
       {\cyrv}{\cyrery}{\cyrp}{\cyru}{\cyrs}{\cyrk}{\cyrn}{\cyro}{\cyrishrt}
       {\cyrr}{\cyra}{\cyrb}{\cyro}{\cyrt}{\cyrery}}
-    \def\PHDtitleDescr{\CYRT\cyre\cyrm\cyra} 
+    \def\PHDtitleDescr{\CYRT\cyre\cyrm\cyra}
     \def\PHDauthorName{{\CYRA}{\cyrv}{\cyrt}{\cyro}{\cyrr}}
     \def\PHDprogramDescr{{\CYRM}{\cyra}{\cyrg}{\cyri}{\cyrs}{\cyrt}{\cyre}{\cyrr}{\cyrs}{\cyrk}{\cyra}{\cyrya} {\cyrp}{\cyrr}{\cyro}{\cyrg}{\cyrr}{\cyra}{\cyrm}{\cyrm}{\cyra}}
   }
@@ -117,18 +117,16 @@
   \begin{flushright}
     \begin{minipage}[t]{0.4\linewidth}
       \begin{flushright}
-        \PHDapprove
-        \end{flushright}
-      \smallskip
-      \begin{flushright}
-          {\PHDdepchieftitle} \\
-          {\PHDdepchiefdegree} \\
-        \underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ } {\PHDdepchief} \\
+        \PHDapprove \\
+        \medskip
+        {\PHDdepchieftitle} \\
+        {\PHDdepchiefdegree} \\
+        \rule{3cm}{0.4pt} {\PHDdepchief} \\
         \smallskip
-          <<\underline{\ \ \ \ \ \ }>> \underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ } 20\underline{\ \ \ \ }\PHDyearShort
-        \end{flushright}
-      \end{minipage}
-    \end{flushright}
+        <<\rule{1cm}{0.4pt}>> \rule{2cm}{0.4pt} 20\rule{1cm}{0.4pt}\PHDyearShort
+      \end{flushright}
+    \end{minipage}
+  \end{flushright}
 }
 
 \providecommand{\authorTable}{%
@@ -140,12 +138,12 @@
     \PHDauthor \par
     \par
     \vfill
-    \fi   
-    
+    \fi
+
   \bigskip
   \bigskip
   \bigskip
-    
+
   \noindent
   \begin{minipage}[t]{0.4\linewidth}
     % Группа
@@ -161,7 +159,7 @@
     {\PHDstudentidDescr}
     {\PHDstudentid} \par
     \smallskip
-    \fi      
+    \fi
   \end{minipage}
   \hfill
   \begin{minipage}[t]{0.4\linewidth}
@@ -170,12 +168,12 @@
     % \else%
     % \underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
     % \PHDauthor \par
-    % <<\underline{\ \ \ \ \ \ }>> \underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ } 20\underline{\ \ \ \ }\PHDyearShort 
+    % <<\underline{\ \ \ \ \ \ }>> \underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ } 20\underline{\ \ \ \ }\PHDyearShort
     % \par
     % \smallskip
-    % \fi   
+    % \fi
     %% Страна
-    % \ifx\@empty\PHDcountry 
+    % \ifx\@empty\PHDcountry
     % \else%
     % \PHDcountryDescr
     % \hfill
@@ -190,7 +188,7 @@
       \smallskip
       {\PHDchieftitle} \par
       {\PHDchiefdegree} \par
-      % \underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ } 
+      % \underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
       {\PHDchief} \par
       \bigskip
       \rule{\linewidth}{0.4pt}
@@ -199,7 +197,7 @@
     {\PHDauthorName}\hfill\rule{0.7\linewidth}{0.4pt}
     % <<\underline{\ \ \ \ \ \ }>> \underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ } 20\underline{\ \ \ \ }\PHDyearShort
     % \smallskip
-    %% 
+    %%
     % \ifx\@empty\PHDdepchief
     % \else%
     % {\PHDdepchieftitle} \hfill
@@ -211,19 +209,17 @@
 
 \AtEndOfClass{%
   \RequirePackage{mdwtab}
-  
+
   \renewcommand{\maketitle}{%
-    \begin{titlepage}%
-      {
-        \ssp
-        \begin{alwayssingle}
+    \begin{titlepage}{%
+        \begin{singlespace}
           % \let\footnotesize\small
           % \let\footnoterule\relax
           % Хак для 14pt кегля
           % \small
           \thispagestyle{empty}
           \setcounter{page}{1}
-          \null\vfil
+          % \null\vfil
           \begin{center}
             {\small \bfseries \MakeUppercase{\PHDministry} \par}
             \smallskip
@@ -235,34 +231,33 @@
             {\bfseries {\PHDfaculty} \par}
             %% Кафедра
             {\bfseries {\PHDchair} \par}
-            %{{{ Специальность
+            % {{{ Специальность
 
             % \ifx\@empty\PHDfield
             % \else%
             % \bigskip%
             % {\PHDfield} \par
             % \fi
-            
-            %}}}
+
+            % }}}
           \end{center}
-          
+
           \bigskip
-          \bigskip
-          
+
           %% Approved stamp
           \ifthenelse{\boolean{approvedStampNeeded}}{%
             \approvedStamp
           }{%
             \vspace{2cm}
           } % END \ifthenelse{\boolean{approvedStampNeeded}}
-          
+
           \vspace{\fill}
-          
+
           \begin{center}
-            
+
             {\large \textbf{\PHDthesistype}} \par
             \smallskip
-            
+
             % По дисциплине (для реферата)
             \ifx\@empty\PHDdiscipline
             \else
@@ -299,7 +294,7 @@
             {\PHDprogram} \par
             \fi
           \end{center}
-        
+
           % Название
           % \begin{center}
             \ifx\@empty\PHDtitle
@@ -310,7 +305,7 @@
             \medskip
             \fi
           % \end{center}
-          
+
           % \begin{center}
           %   \ifx\@empty\PHDstudentdegree
           %   \else%
@@ -318,7 +313,7 @@
           %   \PHDstudentdegreeDescr: \PHDstudentdegree \par
           %   \fi
           % \end{center}
-        
+
           % \begin{center}
           %   \ifx\@empty\PHDdegree
           %     \else
@@ -326,16 +321,16 @@
           %       {\PHDdegree}
           %     \fi
           %   \end{center}
-        
+
         \authorTable
-                  
+
           % Нужна ли таблица БРС
           \ifthenelse{\boolean{brsTableNeeded}}{%
             \bigskip
             \brsTable
             \bigskip
           }{} %% END \ifthenelse{\boolean{brsTableNeeded}}
-          
+
           \begin{center}
             \vspace*{\fill}
             \bfseries
@@ -343,11 +338,11 @@
             {\PHDdegreecity}\\
             {\PHDdegreeyear}
           \end{center}
-                
-        \end{alwayssingle}%
+
+        \end{singlespace}
       }
     \end{titlepage}%
-    
+
     \setcounter{footnote}{0}
     \clearpage
     \setcounter{page}{2}
@@ -358,4 +353,3 @@
 %%% mode: latex
 %%% coding: utf-8-unix
 %%% End:
-
