@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2023.8.20)  17 MAR 2024 12:05
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2023.8.20)  17 MAR 2024 20:47
  system commands enabled.
 **default
 (./default.tex
@@ -597,12 +597,12 @@ braces):
 >  {russian/Localnumeral}  =>  {Russiannumerals}
 >  {russian/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for russian
-(polyglossia)            patterns	hyph-ru.pat.txt
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            righthyphenmin	2
+(polyglossia)            patterns	hyph-ru.pat.txt
 (polyglossia)            loader	loadhyph-ru.tex
+(polyglossia)            hyphenation	hyph-ru.hyp.txt
 (polyglossia)            synonyms	
-(polyglossia)            hyphenation	hyph-ru.hyp.txt on input line 19
+(polyglossia)            righthyphenmin	2 on input line 19
 Module polyglossia Info: Language russian was not yet loaded; created with id 2 
 on input line 19
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -2886,6 +2886,10 @@ luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
 luaotfload | aux : font no 96 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 97 (nil) defines no feature for script cyrl with lang
@@ -2893,6 +2897,14 @@ uage rus
 luaotfload | aux : font no 96 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 97 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
@@ -3040,6 +3052,38 @@ LaTeX Warning: Hyper reference `acro:ns2' on page 4 undefined on input line 26.
 LaTeX Warning: Hyper reference `acro:ns2' on page 4 undefined on input line 26.
 
 
+
+LaTeX Warning: Hyper reference `acro:tcp' on page 4 undefined on input line 27.
+
+
+
+LaTeX Warning: Hyper reference `acro:tcp' on page 4 undefined on input line 27.
+
+
+
+LaTeX Warning: Hyper reference `acro:udp' on page 4 undefined on input line 28.
+
+
+
+LaTeX Warning: Hyper reference `acro:udp' on page 4 undefined on input line 28.
+
+
+
+LaTeX Warning: Hyper reference `acro:rtt' on page 4 undefined on input line 29.
+
+
+
+LaTeX Warning: Hyper reference `acro:rtt' on page 4 undefined on input line 29.
+
+
+
+LaTeX Warning: Hyper reference `acro:qos' on page 4 undefined on input line 30.
+
+
+
+LaTeX Warning: Hyper reference `acro:qos' on page 4 undefined on input line 30.
+
+
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus [4
 
@@ -3122,16 +3166,20 @@ uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus
+uage rus [10]
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus [10]) (./text/ch02.tex
+uage rus) (./text/ch02.tex
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus [11]
 chapter 2.
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
@@ -3390,15 +3438,15 @@ Package logreq Info: Writing requests to 'default.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 53013 strings out of 478382
- 244173,2848258 words of node,token memory allocated
+ 53038 strings out of 478382
+ 244187,2848258 words of node,token memory allocated
  695 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 11 attribute, 86 glue_spec
 , 11 attribute_list, 2 shape, 2 write, 1 pdf_action nodes
-   avail lists: 1:9,2:4093,3:628,4:147,5:5162,6:104,7:7585,8:77,9:10764,10:25,11
-:1032,12:1
- 70508 multiletter control sequences out of 65536+600000
- 104 fonts using 18200487 bytes
+   avail lists: 1:10,2:4093,3:626,4:160,5:5161,6:103,7:7588,8:77,9:10764,10:25,1
+1:1032,12:1
+ 70524 multiletter control sequences out of 65536+600000
+ 104 fonts using 18200447 bytes
  124i,12n,128p,10660b,3179s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/truetype/paratype/ptmono/PTM55F.ttf></usr/s
 hare/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texmf/
@@ -3408,10 +3456,10 @@ s/truetype/paratype/ptsans/PTS55F.ttf></usr/share/texlive/texmf-dist/fonts/truet
 ype/paratype/ptsans/PTS75F.ttf></usr/share/texlive/texmf-dist/fonts/truetype/par
 atype/ptserif/PTF55F.ttf></usr/share/texlive/texmf-dist/fonts/truetype/paratype/
 ptserif/PTF75F.ttf>
-Output written on default.pdf (29 pages, 180775 bytes).
+Output written on default.pdf (29 pages, 184576 bytes).
 
-PDF statistics: 705 PDF objects out of 1000 (max. 8388607)
- 643 compressed objects within 7 object streams
- 425 named destinations out of 1000 (max. 131072)
- 184 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 724 PDF objects out of 1000 (max. 8388607)
+ 662 compressed objects within 7 object streams
+ 434 named destinations out of 1000 (max. 131072)
+ 208 words of extra memory for PDF output out of 10000 (max. 100000000)
 
