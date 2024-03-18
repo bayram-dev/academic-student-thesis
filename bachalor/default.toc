@@ -1,34 +1,38 @@
 \selectlanguage *[spelling=modern]{russian}
-\contentsline {chapter}{Перечень условных обозначений и сокращений}{4}{chapter*.2}%
-\contentsline {chapter}{Введение}{5}{chapter*.3}%
-\contentsline {chapter}{\numberline {1}Теоретическое введение}{7}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Методы моделирования}{7}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Алгоритмы управления очередями}{7}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Алгоритмы активного управления очередью семейства RED}{7}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}RED}{7}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Разбор алгоритма RED}{8}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Проблемы RED}{9}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}ARED}{10}{subsection.1.3.4}%
-\contentsline {section}{\numberline {1.4}Средства моделирования}{10}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Средство имитационного моделирования ns-2}{10}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Средство натурного моделирования Mininet}{10}{subsection.1.4.2}%
-\contentsline {section}{\numberline {1.5}Дополнительные инструменты}{11}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}TC --- Traffic Control}{11}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Iperf3 --- генератор TCP, UDP и SCTP трафика}{11}{subsection.1.5.2}%
-\contentsline {chapter}{\numberline {2}Моделирование алгоритмов}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Эталонная модель}{12}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Реализация в NS-2}{12}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Реализация в Mininet}{12}{section.2.3}%
-\contentsline {chapter}{Заключение}{13}{chapter*.6}%
-\contentsline {chapter}{\nonumberline Список литературы}{14}{chapter*.7}%
-\contentsline {chapter}{\numberline {A}Название первого приложения}{15}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Название секции}{15}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Название секции}{15}{section.A.2}%
-\contentsline {chapter}{\numberline {B}Название второго приложения}{16}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Название секции}{16}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Название секции}{16}{section.B.2}%
-\contentsline {chapter}{\numberline {C}Заголовочный файл diffur.h}{17}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Файл diffur.c}{25}{appendix.D}%
-\contentsline {chapter}{Список иллюстраций}{28}{chapter*.8}%
-\contentsline {chapter}{Список таблиц}{29}{chapter*.9}%
+\contentsline {chapter}{Перечень условных обозначений и сокращений}{5}{chapter*.2}%
+\contentsline {chapter}{Введение}{6}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Теоретическое введение}{8}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Методы моделирования}{8}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Алгоритмы управления очередями}{8}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Алгоритмы активного управления очередью семейства RED}{8}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}RED}{8}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Разбор алгоритма RED}{9}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Проблемы RED}{10}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}ARED}{11}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}Средства моделирования}{11}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Средство имитационного моделирования ns-2}{11}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Средство натурного моделирования Mininet}{12}{subsection.1.4.2}%
+\contentsline {section}{\numberline {1.5}Дополнительные инструменты}{12}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}TC --- Traffic Control}{12}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Iperf3 --- генератор TCP, UDP и SCTP трафика}{12}{subsection.1.5.2}%
+\contentsline {chapter}{\numberline {2}Моделирование алгоритмов}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Эталонная модель}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Реализация в NS-2}{13}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Реализация в Mininet}{14}{section.2.3}%
+\contentsline {chapter}{Заключение}{15}{chapter*.6}%
+\contentsline {chapter}{\nonumberline Список литературы}{16}{chapter*.7}%
+\contentsline {chapter}{\numberline {A}Название первого приложения}{17}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Название секции}{17}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Название секции}{17}{section.A.2}%
+\contentsline {chapter}{\numberline {B}Название второго приложения}{18}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Название секции}{18}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Название секции}{18}{section.B.2}%
+\contentsline {chapter}{\numberline {C}Файл ns2-red.tcl}{19}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Файл nodes.tcl}{20}{appendix.D}%
+\contentsline {chapter}{\numberline {E}Файл queue.tcl}{22}{appendix.E}%
+\contentsline {chapter}{\numberline {F}Файл plotWindow.tcl}{23}{appendix.F}%
+\contentsline {chapter}{\numberline {G}Файл modeling.tcl}{24}{appendix.G}%
+\contentsline {chapter}{\numberline {H}Файл finish.tcl}{25}{appendix.H}%
+\contentsline {chapter}{Список иллюстраций}{27}{chapter*.8}%
+\contentsline {chapter}{Список таблиц}{28}{chapter*.9}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
