@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2023.8.20)  18 MAR 2024 12:10
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2023.8.20)  24 MAR 2024 22:46
  system commands enabled.
 **default
 (./default.tex
@@ -598,11 +598,11 @@ braces):
 >  {russian/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for russian
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            righthyphenmin	2
-(polyglossia)            loader	loadhyph-ru.tex
-(polyglossia)            hyphenation	hyph-ru.hyp.txt
 (polyglossia)            patterns	hyph-ru.pat.txt
-(polyglossia)            synonyms	 on input line 19
+(polyglossia)            synonyms	
+(polyglossia)            loader	loadhyph-ru.tex
+(polyglossia)            righthyphenmin	2
+(polyglossia)            hyphenation	hyph-ru.hyp.txt on input line 19
 Module polyglossia Info: Language russian was not yet loaded; created with id 2 
 on input line 19
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -2784,6 +2784,20 @@ uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus)
 Package biblatex Info: Reference section=0 on input line 19.
 Package biblatex Info: Reference segment=0 on input line 19.
@@ -3161,10 +3175,6 @@ luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
-LaTeX Font Info:    Font shape `TU/PTSerif(0)/m/n' will be
-(Font)              scaled to size 7.8442pt on input line 70.
-LaTeX Font Info:    Font shape `TU/PTSerif(0)/m/n' will be
-(Font)              scaled to size 5.603pt on input line 70.
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus [8
 
@@ -3179,26 +3189,78 @@ luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
+LaTeX Font Info:    Font shape `TU/PTSerif(1)/m/n' will be
+(Font)              scaled to size 7.8442pt on input line 73.
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+LaTeX Font Info:    Calculating math sizes for size <10.83347> on input line 73
+.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 10.83347pt on input line 73.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `latinmodern-math.otf' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.58339pt on input line 73.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.41673pt on input line 73.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.83446pt on input line 73.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.58408pt on input line 73.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.41722pt on input line 73.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 10.8323pt on input line 73.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.58257pt on input line 73.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.41615pt on input line 73.
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <7.58339> not available
+(Font)              size <8> substituted on input line 73.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <5.41673> not available
+(Font)              size <5> substituted on input line 73.
+
+LaTeX Font Info:    Font shape `TU/PTSerif(1)/m/n' will be
+(Font)              scaled to size 6.53687pt on input line 73.
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+LaTeX Font Info:    Font shape `TU/PTSerif(0)/m/n' will be
+(Font)              scaled to size 7.8442pt on input line 88.
+LaTeX Font Info:    Font shape `TU/PTSerif(0)/m/n' will be
+(Font)              scaled to size 5.603pt on input line 88.
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus [9]
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 149.
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 171.
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus [10]
-luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus
-luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus
-luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus
-luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
@@ -3210,9 +3272,21 @@ uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus) (./text/ch02.tex
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus [12]
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus) (./text/ch02.tex
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus [13]
 chapter 2.
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
@@ -3244,25 +3318,57 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `PTMono' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-luaotfload | aux : font no 102 (nil) defines no feature for script cyrl with lan
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
 guage rus
-luaotfload | aux : font no 102 (nil) defines no feature for script cyrl with lan
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
 guage rus
 LaTeX Font Info:    Font shape `TU/PTMono(1)/m/n' will be
 (Font)              scaled to size 9.10007pt on input line 60.
-[13
+[14
 
 ]
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus) (./text/conclusion.tex
-luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus [14]
+uage rus
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
+guage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus [15
+uage rus
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
+guage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
+guage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
+guage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
+guage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus [15]
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus) (./text/conclusion.tex
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus [16]
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus [17
 
 ]))
 chapter without number
@@ -3272,16 +3378,55 @@ luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
-luaotfload | aux : font no 102 (nil) defines no feature for script cyrl with lan
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
+guage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
+guage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
 guage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus (./text-appendix.tex (./text/app01.tex
+uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus [16
+uage rus
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
+guage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
+guage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+Overfull \hbox (11.1215pt too wide) in paragraph at lines 31--31
+[]\TU/PTSerif(1)/m/it/13 Feng W.[]c.\TU/PTSerif(1)/m/n/13 , \TU/PTSerif(1)/m/it
+/13 Kandlur D.\TU/PTSerif(1)/m/n/13 , \TU/PTSerif(1)/m/it/13 Saha D. \TU/PTSeri
+f(1)/m/n/13 BLUE: An Alternative Approach to Active Queue Management. —
+ []
+
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
+guage rus
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
+guage rus
+Overfull \hbox (4.49411pt too wide) in paragraph at lines 31--31
+[]\TU/PTSerif(1)/m/it/13 Floyd S.\TU/PTSerif(1)/m/n/13 , \TU/PTSerif(1)/m/it/13
+ Jacobson V. \TU/PTSerif(1)/m/n/13 Random Early Detection Gateways for Congestio
+n Avoidance [] IEEE/ACM
+ []
+
+(./text-appendix.tex (./text/app01.tex
+luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
+uage rus [18
 
 
 ]
@@ -3293,7 +3438,7 @@ uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus) (./text/app02.tex
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus [17
+uage rus [19
 
 ]
 chapter B.
@@ -3304,7 +3449,7 @@ uage rus
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus) (./text/app03.tex
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus [18
+uage rus [20
 
 ]
 chapter C.
@@ -3312,61 +3457,61 @@ luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 10.
-luaotfload | aux : font no 102 (nil) defines no feature for script cyrl with lan
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
 guage rus (./lst/ns2/ns2-red.tcl)
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus [19
+uage rus [21
 
 ]
 chapter D.
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
-luaotfload | aux : font no 102 (nil) defines no feature for script cyrl with lan
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
 guage rus (./lst/ns2/nodes.tcl
-luaotfload | aux : font no 102 (nil) defines no feature for script cyrl with lan
-guage rus [20
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
+guage rus [22
 
 ])
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus [21]
+uage rus [23]
 chapter E.
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
-luaotfload | aux : font no 102 (nil) defines no feature for script cyrl with lan
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
 guage rus (./lst/ns2/queue.tcl)
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus [22
+uage rus [24
 
 ]
 chapter F.
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
-luaotfload | aux : font no 102 (nil) defines no feature for script cyrl with lan
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
 guage rus (./lst/ns2/plotWindow.tcl)
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus [23
+uage rus [25
 
 ]
 chapter G.
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
-luaotfload | aux : font no 102 (nil) defines no feature for script cyrl with lan
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
 guage rus (./lst/ns2/modeling.tcl)
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus [24
+uage rus [26
 
 ]
 chapter H.
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
-luaotfload | aux : font no 102 (nil) defines no feature for script cyrl with lan
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
 guage rus (./lst/ns2/finish.tcl
-luaotfload | aux : font no 102 (nil) defines no feature for script cyrl with lan
-guage rus [25
+luaotfload | aux : font no 126 (nil) defines no feature for script cyrl with lan
+guage rus [27
 
 ])))
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus [26]
+uage rus [28]
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus (./default.lof
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
@@ -3379,7 +3524,7 @@ uage rus)
 
 \openout10 = default.lof
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
-uage rus [27
+uage rus [29
 
 ]
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
@@ -3484,7 +3629,7 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/options}  =>  {variant=newzealand}.
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
 uage rus
-[28
+[30
 
 ] (./default.aux
 luaotfload | aux : font no 64 (nil) defines no feature for script cyrl with lang
@@ -3510,15 +3655,15 @@ Package logreq Info: Writing requests to 'default.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 52927 strings out of 478382
- 195335,2848258 words of node,token memory allocated
- 695 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 11 attribute, 86 glue_spec
-, 11 attribute_list, 2 shape, 2 write, 1 pdf_action nodes
-   avail lists: 1:11,2:3203,3:625,4:191,5:4073,6:102,7:6680,8:79,9:8434,10:12,11
-:1032,12:1
- 70547 multiletter control sequences out of 65536+600000
- 103 fonts using 18073215 bytes
+ 53096 strings out of 478382
+ 195331,2848258 words of node,token memory allocated
+ 716 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 13 attribute, 86 glue_spec
+, 13 attribute_list, 2 shape, 2 write, 2 pdf_action nodes
+   avail lists: 1:7,2:3203,3:878,4:237,5:4073,6:110,7:6688,8:79,9:8434,10:12,11:
+1032,12:1
+ 70679 multiletter control sequences out of 65536+600000
+ 127 fonts using 25962263 bytes
  124i,12n,128p,10660b,3179s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/truetype/paratype/ptmono/PTM55F.ttf></usr/s
 hare/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texmf/
@@ -3528,10 +3673,10 @@ s/truetype/paratype/ptsans/PTS55F.ttf></usr/share/texlive/texmf-dist/fonts/truet
 ype/paratype/ptsans/PTS75F.ttf></usr/share/texlive/texmf-dist/fonts/truetype/par
 atype/ptserif/PTF55F.ttf></usr/share/texlive/texmf-dist/fonts/truetype/paratype/
 ptserif/PTF75F.ttf>
-Output written on default.pdf (28 pages, 178186 bytes).
+Output written on default.pdf (30 pages, 187043 bytes).
 
-PDF statistics: 554 PDF objects out of 1000 (max. 8388607)
- 495 compressed objects within 5 object streams
- 252 named destinations out of 1000 (max. 131072)
+PDF statistics: 594 PDF objects out of 1000 (max. 8388607)
+ 532 compressed objects within 6 object streams
+ 263 named destinations out of 1000 (max. 131072)
  240 words of extra memory for PDF output out of 10000 (max. 100000000)
 

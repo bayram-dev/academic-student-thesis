@@ -3484,10 +3484,20 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bib/cite.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">red-1993</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">ARED_1</bcf:citekey>
-    <bcf:citekey order="2" intorder="2">ARED_2</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">ARED_3</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">pqm</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">aqm</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">RandomEarlyDeFloyd1993</bcf:citekey>
+    <bcf:citekey order="3" intorder="2">ASelfConfigurFeng1999</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">ARED_1</bcf:citekey>
+    <bcf:citekey order="4" intorder="2">ARED_2</bcf:citekey>
+    <bcf:citekey order="4" intorder="3">ARED_3</bcf:citekey>
+    <bcf:citekey order="4" intorder="4">AnalysisOfAdaLaR2003</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">blue</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">RevisitingTheHamadn2019</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">red-1993</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">ARED_1</bcf:citekey>
+    <bcf:citekey order="8" intorder="2">ARED_2</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">ARED_3</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

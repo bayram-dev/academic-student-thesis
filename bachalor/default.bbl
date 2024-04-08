@@ -19,39 +19,145 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{red-1993}{article}{}
-      \name{author}{2}{}{%
-        {{hash=bcb66fc187ba17e78c6c22747197aecf}{%
-           family={Floyd},
-           familyi={F\bibinitperiod},
-           given={Sally},
-           giveni={S\bibinitperiod}}}%
-        {{hash=2191d887ae31ebf1ef43a77dc25834c4}{%
-           family={Jacobson},
+    \entry{pqm}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=ded4cac4cbcad8b0e836bbad6784d7af}{%
+           family={Jiang},
            familyi={J\bibinitperiod},
-           given={Van},
-           giveni={V\bibinitperiod}}}%
+           given={Wengang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=e77a4c651228189d616c27ca802ad7b4}{%
+           family={Shang},
+           familyi={S\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f9c1da8c852349a9cf1e3100f91891fa}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jinsheng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=77955160f28be4dd328a4a9ea9be9adf}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhiquan},
+           giveni={Z\bibinitperiod}}}%
       }
-      \strng{namehash}{e797d8bbb855a3bef0488897f68c9d65}
-      \strng{fullhash}{e797d8bbb855a3bef0488897f68c9d65}
-      \strng{bibnamehash}{e797d8bbb855a3bef0488897f68c9d65}
-      \strng{authorbibnamehash}{e797d8bbb855a3bef0488897f68c9d65}
-      \strng{authornamehash}{e797d8bbb855a3bef0488897f68c9d65}
-      \strng{authorfullhash}{e797d8bbb855a3bef0488897f68c9d65}
+      \strng{authorbibnamehash}{7c12bdc015378bd4b60468c27c5ac2e7}
+      \strng{authornamehash}{7c12bdc015378bd4b60468c27c5ac2e7}
+      \strng{authorfullhash}{7848e1dbd879734a159260a8d15a1dec}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{month}{09}
+      \field{title}{Reformed passive queue management algorithm}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1109/ICECENG.2011.6057005
+      \endverb
+    \endentry
+    \entry{aqm}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5c2dc9ab8222b7394031426f77e27f86}{%
+           family={Dhumane},
+           familyi={D\bibinitperiod},
+           given={Amol},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c2dc9ab8222b7394031426f77e27f86}
+      \strng{fullhash}{5c2dc9ab8222b7394031426f77e27f86}
+      \strng{bibnamehash}{5c2dc9ab8222b7394031426f77e27f86}
+      \strng{authorbibnamehash}{5c2dc9ab8222b7394031426f77e27f86}
+      \strng{authornamehash}{5c2dc9ab8222b7394031426f77e27f86}
+      \strng{authorfullhash}{5c2dc9ab8222b7394031426f77e27f86}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{Active Queue Management}
+      \field{year}{2014}
+    \endentry
+    \entry{RandomEarlyDeFloyd1993}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7601832cf3b530105ae9618be944c189}{%
+           family={Floyd},
+           familyi={F\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a25d21ec614ebedb82800ec385049ac1}{%
+           family={Jacobson},
+           familyi={J\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers (IEEE)}%
+      }
+      \strng{namehash}{080f7e064da96d54c9f5e65d182ce2d9}
+      \strng{fullhash}{080f7e064da96d54c9f5e65d182ce2d9}
+      \strng{bibnamehash}{080f7e064da96d54c9f5e65d182ce2d9}
+      \strng{authorbibnamehash}{080f7e064da96d54c9f5e65d182ce2d9}
+      \strng{authornamehash}{080f7e064da96d54c9f5e65d182ce2d9}
+      \strng{authorfullhash}{080f7e064da96d54c9f5e65d182ce2d9}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE/ACM Transactions on Networking}
-      \field{month}{09}
-      \field{title}{Random Early Detection Gateways for Congestion Avoidance}
+      \field{title}{Random early detection gateways for congestion avoidance}
       \field{year}{1993}
+      \field{issue}{4}
+      \range{issue}{1}
       \field{pages}{397\bibrangedash 413}
       \range{pages}{17}
       \field{volume}{1}
       \range{volume}{1}
       \verb{doi}
       \verb 10.1109/90.251892
+      \endverb
+    \endentry
+    \entry{ASelfConfigurFeng1999}{inproceedings}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=5c0a4e16310ce75c4dd29b094717c362}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={W.-C.},
+           giveni={W\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=ff50efd7be1fbe248b5a474616948ee0}{%
+           family={Kandlur},
+           familyi={K\bibinitperiod},
+           given={D.D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3d6292cfd24a55a82ea6b800b6e30a40}{%
+           family={Saha},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6de1f6de117e43d62732cc9d3438c542}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={K.G.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{authorbibnamehash}{62d8decc0ac6634e308fb082c2dc8011}
+      \strng{authornamehash}{62d8decc0ac6634e308fb082c2dc8011}
+      \strng{authorfullhash}{bf88576f3b55c8a1d38c94490b4aea07}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE INFOCOM '99. Conference on Computer Communications. Proceedings. Eighteenth Annual Joint Conference of the IEEE Computer and Communications Societies. The Future is Now (Cat. No.99CH36320)}
+      \field{journaltitle}{IEEE INFOCOM \textbackslashtextquotesingle 99. Conference on Computer Communications. Proceedings. Eighteenth Annual Joint Conference of the IEEE Computer and Communications Societies. The Future is Now Cat. No.99CH36320}
+      \field{month}{3}
+      \field{title}{A self-configuring RED gateway}
+      \field{venue}{New York, NY, USA}
+      \field{year}{1999}
+      \verb{doi}
+      \verb 10.1109/infcom.1999.752150
       \endverb
     \endentry
     \entry{ARED_1}{article}{useauthor=false}
@@ -80,8 +186,8 @@
       \strng{authorbibnamehash}{238ed52e8a73565e2fbfb0a585bf2a2d}
       \strng{authornamehash}{238ed52e8a73565e2fbfb0a585bf2a2d}
       \strng{authorfullhash}{0c57c7d2bd85660a6bde4eabf8861cfa}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{month}{10}
       \field{title}{Techniques for Eliminating Packet Loss in Congested TCP/IP Networks}
@@ -118,8 +224,8 @@
       \strng{authorbibnamehash}{2a2d7dc0d5f452e3257ed33b959fd8a3}
       \strng{authornamehash}{2a2d7dc0d5f452e3257ed33b959fd8a3}
       \strng{authorfullhash}{fac3abd0b493bb8210bcd913ff1ebf16}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings - IEEE INFOCOM}
       \field{month}{11}
@@ -152,13 +258,170 @@
       \strng{authorbibnamehash}{d6f785e2c8738ab252b9377220242989}
       \strng{authornamehash}{d6f785e2c8738ab252b9377220242989}
       \strng{authorfullhash}{d6f785e2c8738ab252b9377220242989}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{09}
       \field{title}{Adaptive RED: An Algorithm for Increasing the Robustness of RED's Active Queue Management}
       \field{year}{2001}
+    \endentry
+    \entry{AnalysisOfAdaLaR2003}{inbook}{}
+      \name{author}{3}{}{%
+        {{hash=ec56395c65cdc4743c7bf735f7eb3412}{%
+           family={La},
+           familyi={L\bibinitperiod},
+           given={R.J.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5f41d5a100106834e69afea467b8ce27}{%
+           family={Ranjan},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cc60ca50fc5078b2a0717c234c819d77}{%
+           family={Abed},
+           familyi={A\bibinitperiod},
+           given={E.H.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{69514c0b71be7f72d09f868681756afd}
+      \strng{fullhash}{69514c0b71be7f72d09f868681756afd}
+      \strng{bibnamehash}{69514c0b71be7f72d09f868681756afd}
+      \strng{authorbibnamehash}{69514c0b71be7f72d09f868681756afd}
+      \strng{authornamehash}{69514c0b71be7f72d09f868681756afd}
+      \strng{authorfullhash}{69514c0b71be7f72d09f868681756afd}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Providing Quality of Service in Heterogeneous Environments Proceedings of the 18th International Teletraffic Congress - ITC-18}
+      \field{pagetotal}{1271--1280}
+      \field{title}{Analysis of adaptive random early detection (ARED)}
+      \field{year}{2003}
+      \verb{doi}
+      \verb 10.1016/s1388-3437(03)80276-7
+      \endverb
+    \endentry
+    \entry{blue}{article}{}
+      \name{author}{3}{}{%
+        {{hash=76a395df65ed7a9b9ae0c17b74d6b653}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Wu-chang},
+           giveni={W\bibinithyphendelim c\bibinitperiod}}}%
+        {{hash=601b555fc65fd219f427543db3d0963d}{%
+           family={Kandlur},
+           familyi={K\bibinitperiod},
+           given={Dilip},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a777bd8251c6643c3c38ceed5ad8d4e6}{%
+           family={Saha},
+           familyi={S\bibinitperiod},
+           given={Debanjan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{76cb6b4ba5bc0c0e42ede650ca24b1ad}
+      \strng{fullhash}{76cb6b4ba5bc0c0e42ede650ca24b1ad}
+      \strng{bibnamehash}{76cb6b4ba5bc0c0e42ede650ca24b1ad}
+      \strng{authorbibnamehash}{76cb6b4ba5bc0c0e42ede650ca24b1ad}
+      \strng{authornamehash}{76cb6b4ba5bc0c0e42ede650ca24b1ad}
+      \strng{authorfullhash}{76cb6b4ba5bc0c0e42ede650ca24b1ad}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{09}
+      \field{title}{BLUE: An Alternative Approach to Active Queue Management}
+      \field{year}{2000}
+      \verb{doi}
+      \verb 10.1145/378344.378350
+      \endverb
+    \endentry
+    \entry{RevisitingTheHamadn2019}{article}{useauthor=false}
+      \name{author}{5}{}{%
+        {{hash=8c07c54ea6ebdb79895afc1af535941c}{%
+           family={Hamadneh},
+           familyi={H\bibinitperiod},
+           given={Nabhan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c7485dcc8d256a6f197ed7802687f252}{%
+           family={None},
+           familyi={N\bibinitperiod},
+           given={None},
+           giveni={N\bibinitperiod}}}%
+        {{hash=bc4ff864b93c0c5961354d1a746a7767}{%
+           family={Al-Kasassbeh},
+           familyi={A\bibinithyphendelim K\bibinitperiod},
+           given={Mouhammd},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6a391766b89c55383ab2ce08596d7327}{%
+           family={Obiedat},
+           familyi={O\bibinitperiod},
+           given={Ibrahim},
+           giveni={I\bibinitperiod}}}%
+        {{hash=9da2d4f6d1797a7cd44156687dc68816}{%
+           family={BaniKhalaf},
+           familyi={B\bibinitperiod},
+           given={Mustafa},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Engineering}%
+        {Technology Publishing}%
+      }
+      \strng{authorbibnamehash}{d03c2bb9c1314a47bff32a15316cfd38}
+      \strng{authornamehash}{d03c2bb9c1314a47bff32a15316cfd38}
+      \strng{authorfullhash}{7b3572b84a77a4ae43c6601d7bff7e74}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Communications}
+      \field{title}{Revisiting the Gentle Parameter of the Random Early Detection (RED) for TCP Congestion Control}
+      \field{year}{2019}
+      \field{pages}{229\bibrangedash 235}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.12720/jcm.14.3.229-235
+      \endverb
+    \endentry
+    \entry{red-1993}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bcb66fc187ba17e78c6c22747197aecf}{%
+           family={Floyd},
+           familyi={F\bibinitperiod},
+           given={Sally},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2191d887ae31ebf1ef43a77dc25834c4}{%
+           family={Jacobson},
+           familyi={J\bibinitperiod},
+           given={Van},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{e797d8bbb855a3bef0488897f68c9d65}
+      \strng{fullhash}{e797d8bbb855a3bef0488897f68c9d65}
+      \strng{bibnamehash}{e797d8bbb855a3bef0488897f68c9d65}
+      \strng{authorbibnamehash}{e797d8bbb855a3bef0488897f68c9d65}
+      \strng{authornamehash}{e797d8bbb855a3bef0488897f68c9d65}
+      \strng{authorfullhash}{e797d8bbb855a3bef0488897f68c9d65}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE/ACM Transactions on Networking}
+      \field{month}{09}
+      \field{title}{Random Early Detection Gateways for Congestion Avoidance}
+      \field{year}{1993}
+      \field{pages}{397\bibrangedash 413}
+      \range{pages}{17}
+      \field{volume}{1}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1109/90.251892
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
